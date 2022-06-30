@@ -1,0 +1,24 @@
+maquillaje INSERT INTO `producto`( `tipo`, `id_maquillaje`, `nombre_maqui`, `src_maqui`, `precio_maqui`, `direccion_maqui`, `descripcion_maqui`) VALUES ('[value-1]','[value-2]','[value-3]','[value-4]','[value-5]','[value-6]','[value-7])
+figuras figuras INSERT INTO `producto`( `tipo`,`id_figu`, `nombre_figu`, `src_figu`, `precio_figu`, `direccion_figu`, `descripcion_figu`) VALUES ('[value-1]','[value-2]','[value-3]','[value-4]','[value-5]','[value-6]','[value-7]')
+mangas INSERT INTO `producto`( `tipo`,`id_man`, `nombre_manga`, `src_manga`, `precio_manga`, `direccion_manga`, `descripcion_manga`) VALUES ('[value-1]','[value-2]','[value-3]','[value-4]','[value-5]','[value-6]','[value-7]')
+tecnologia INSERT INTO `producto`(`tipo`,`id_tec`, `nombre_tec`, `src_tec`, `precio_tec`, `direccion_tec`, `descripcion_tec`) VALUES ('[value-1]','[value-2]','[value-3]','[value-4]','[value-5]','[value-6]','[value-7]')
+deportes INSERT INTO `producto`(`tipo`,`id_deportes`, `nombre_deportes`, `src_deportes`, `precio_deportes`, `direccion_deportes`, `descripcion_deportes`) VALUES ('[value-1]','[value-2]','[value-3]','[value-4]','[value-5]','[value-6]','[value-7]')
+anuncios INSERT INTO `anuncios`(`src_anuncio`, `nombre_anuncio`, `empresa_anuncio`, `direccion_anuncio`) VALUES ('[value-1]','[value-2]','[value-3]','[value-4]')
+
+$id= $_SESSION["id"];
+		$consulta=$conectar->prepare("SELECT count(codigo_p) as total FROM cliente_pro WHERE codigo_c='$id'");
+		$consulta->execute();
+		$ult=$consulta->fetch();
+		echo	"<br><br>
+				<br><br>";
+		for ($i=1; $i <= $ult["total"] ; $i++) { 
+            $consulta1=$conectar->prepare("SELECT cantidad,codigo_p FROM cliente_pro WHERE codigo_c='$id'");
+		$consulta1->execute();
+		$ult1=$consulta1->fetch();
+            $codigo=$ult1["codigo_p"];
+            for ($e=1; $i <= $ult["total"] ; $e++) {
+            $consulta2=$conectar->prepare("SELECT * FROM productos WHERE codigo='$codigo'");
+            $consulta2->execute();
+            $info=$consulta2->fetch();
+Escribe en Audin Montiel
+Aa

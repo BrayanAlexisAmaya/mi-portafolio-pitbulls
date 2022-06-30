@@ -1,0 +1,213 @@
+/* clase de la imagen del ojo */
+#mostrarin{
+    height: 40px;
+    width: 40px;
+}
+.mostrarin{
+    background-color: transparent;
+    border: none;
+    height: 40px;
+    width: 50px;
+}
+/* clase de la tabla de inicio y registro de sesion */
+#contenedor{
+    position: absolute;
+    top: 260px;
+}
+.t{
+    position: absolute;
+    top: -290px;
+    left: 130px;
+    background: whitesmoke;
+    height: 350px;
+    width: 380px;
+    border-collapse: collapse;
+    border-radius: 70px;
+    box-shadow: -12px 12px 5px rgb(179, 179, 179);
+
+    }
+.tr{
+    font-size: 25px;
+    color: black;
+}
+.t button[onclick="none"]{
+    position: absolute;
+    left: 50px;
+    top: 20px;
+    font-size: 22px;
+    background: black;
+    color: white;
+    border-radius: 30px;
+    border: none;
+}
+.t span{
+    position: absolute;
+    top: 73px;
+    left: 50px;
+    font-size: 30px;
+    font-family: arial;
+}
+.t button[class="olvidaste"]{
+    text-decoration: none;
+    font-size: 17px;
+    position: relative;
+    left: 10px;
+    top: 25px;
+    color: #c60000;
+    font-family: arial;
+}
+.t div{
+    position: absolute;
+    top: 130px;
+}
+.t div input[class="textin"]{
+    font: 30px;
+    border: none;
+    border-bottom: 2px solid #c60000;
+    width: 175px;
+    background: whitesmoke;
+    height: 30px;
+}
+.t div button{
+    background: transparent;
+    border: none;
+}
+/* tamaño del ojo */
+#mostrarin{
+    height: 25px;
+    width: 25px;
+}
+#vcveri{
+    height: 25px;
+    width: 25px;
+}
+/* botones de la tabla */
+.t div input[type="reset"]{
+    position: absolute;
+    bottom: -30px;
+    left: 50px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+}
+.t div input[type="submit"]{
+    position: absolute;
+    bottom: -30px;
+    left: 240px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+}
+.t div input[name="clave"]{
+    position: absolute;
+    bottom: 45px;
+    left: 50px;
+}
+.t div button[name="ojoini"]{
+    position: absolute;
+    left: 235px;
+    bottom: 45px;
+}
+/* estilo de la tabla de registrar */
+.t div[class="registrar"]{
+    position: absolute;
+    top: 130px;
+    left: -57px;
+    width: 400px;
+    height: 200px;
+    overflow: scroll;
+    overflow-x:unset;
+}
+/* estilo de botones de reiniciar y registrar */
+.t div[class="registrar"] input[type="reset"]{
+    position: absolute;
+    bottom: -100%;
+    left: 100px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+}
+.t div[class="registrar"] input[type="submit"]{
+    position: absolute;
+    bottom: -100%;
+    left: 260px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+}
+.t div[class="registrar"] input[class="resetad"]{
+    position: absolute;
+    bottom: -30%;
+    left: 100px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+}
+.t div[class="registrar"] input[class="iniciarad"]{
+    position: absolute;
+    bottom: -30%;
+    left: 260px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+}
+.t div[class="registrar"] input[class="resetanun"]{
+    position: absolute;
+    bottom: -35%;
+    left: 100px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+}
+.t div[class="registrar"] input[class="iniciaranun"]{
+    position: absolute;
+    bottom: -35%;
+    left: 260px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+}
+/* estilo del input de contraseña */
+.t div[class="registrar"] input[id="textin"]{
+    position: absolute;
+    bottom: -110px;
+    left: 105px;
+}
+/* estilo del ojo de la contraseña */
+.t div[class="registrar"] button[class="mostrar"]{
+    position: absolute;
+    left: 291px;
+    bottom: -105px;
+}
+/* estilo del scroll de la tabla registrar */
+.t div[class="registrar"]::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+    background: transparent;
+}
+.t div[class="registrar"]::-webkit-scrollbar-thumb{
+    border-radius: 50px;
+    background: #c60000;
+}
+.t div[class="registrar"]::-webkit-scrollbar-thumb:hover{
+    background: black;
+}
+.t div[class="registrar"]::-webkit-scrollbar-thumb:active{
+    background: #358ea0;
+}

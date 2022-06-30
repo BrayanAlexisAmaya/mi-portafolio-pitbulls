@@ -1,0 +1,437 @@
+html{
+    background: rgb(20, 20, 20);
+}
+html::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+    background: transparent;
+}
+html::-webkit-scrollbar-thumb{
+    border-radius: 50px;
+    background: red;
+}
+html::-webkit-scrollbar-thumb:hover{
+    background: white;
+}
+html::-webkit-scrollbar-thumb:active{
+    background: #358ea0;
+}
+.nombre{
+    position:absolute;
+    top: 50px;
+    left: 50px;
+}
+.nombreb{
+    font-size: 30px;
+    background-color: white;
+    border: 1px solid black;
+    height: 60px;
+    border-radius: 15px;
+}
+.servicio{
+    font-size: 17px;
+    position: absolute;
+    top: 55px;
+    left: 300px;
+    color: rgb(211, 211, 211);
+}
+.logo{
+    position: absolute;
+    top: 30px;
+    left: 1190px;
+}
+.logo img{
+    width: 120px;
+    height: 120px;
+    border-radius: 500px;
+}
+.navegador{
+    position: absolute;
+    top: 160px;
+    left: 50px;
+    font-size: 23px;
+    color: white;
+}
+.navegador a{
+    text-decoration: none;
+    font-size: 23px;
+    color: rgb(211, 211, 211);
+}
+.navegador a:hover{
+    color: red;
+    font-size: 110%;
+    transition: all .1s;
+}
+.navegador button{
+    text-decoration: none;
+    font-size: 23px;
+    color: rgb(211, 211, 211);
+    background: transparent;
+    border: none;
+}
+.navegador button:hover{
+    color: red;
+    font-size: 110%;
+    transition: all .1s;
+}
+.productos{
+    width: 1000px;
+    position: absolute;
+    top: 270px;
+    left: 170px;
+    z-index: -1;
+}
+.isegu{
+    position: relative;
+    left: 570px;
+}
+.fi{
+    color: black;
+    background: white;
+    border: none;
+    font-size: 23px;
+    border-radius: 10px;
+}
+.productos a[href="lista.php?tipo=figu"]{
+    position: absolute;
+    left: 570px;
+}
+.productos a[href="lista.php?tipo=tecno"]{
+    position: absolute;
+    left: 570px;
+}
+.productos a[href="lista.php?tipo=depor"]{
+    position: absolute;
+    left: 300px;
+}
+.productos a[href="listausu.php?tipo=figu"]{
+    position: absolute;
+    left: 570px;
+}
+.productos a[href="listausu.php?tipo=tecno"]{
+    position: absolute;
+    left: 570px;
+}
+.productos a[href="listausu.php?tipo=depor"]{
+    position: absolute;
+    left: 300px;
+}
+.productos img{
+    width: 400px;
+    height: 300px;
+    border-radius: 70px;
+    border: 5px solid #358ea0;
+}
+.maqui{
+    position: absolute;
+    top: 330px;
+    left: 130px;
+    color: black;
+    background: white;
+    border: none;
+    font-size: 23px;
+    border-radius: 10px;
+}
+.ma{
+    color: black;
+    background: white;
+    border: none;
+    font-size: 23px;
+    border-radius: 10px;
+}
+.figu{
+    position: absolute;
+    top: 330px;
+    left: 720px;
+    color: black;
+    background: white;
+    border: none;
+    font-size: 23px;
+    border-radius: 10px;
+}
+.manga{
+    position: absolute;
+    top: 750px;
+    left: 150px;
+    color: black;
+    background: white;
+    border: none;
+    font-size: 23px;
+    border-radius: 10px;
+}
+.tecno{
+    position: absolute;
+    top: 750px;
+    left: 700px;
+    color: black;
+    background: white;
+    border: none;
+    font-size: 23px;
+    border-radius: 10px;
+}
+.deportes{
+    position: absolute;
+    top: 1170px;
+    left: 440px;
+    color: black;
+    background: white;
+    border: none;
+    font-size: 23px;
+    border-radius: 10px;
+}
+.anuncio{
+    padding-bottom: 20px;
+    position: absolute;
+    left: -15px;
+    bottom: -64%;
+}
+.anuncio img{
+    width: 1000px;
+    height: 150px;
+    border-radius: 50px;
+}
+.productos div[id="contenedor"]{
+    position: absolute;
+    top: 270px;
+    left: 170px;
+    width: 1000px;
+    z-index: 1;
+}
+.productos img[src="logo/mostrar.png"]{
+    border: none;
+}
+.error{
+    position: absolute;
+    top: -67px;
+    font-size: 24px;
+    left: 290px;
+    width: 600px;
+}
+.ero{
+    background: white;
+    border-radius: 15px;
+    font-family: arial;
+    height: 50px;
+    border: none;
+    font-size: 24px;
+}
+.olvi{
+    width: 320px;
+    border: none;
+    background: transparent; 
+    font-size: 25px; 
+    color: whitesmoke;
+}
+.olvip{
+    border: none;
+    background: transparent; 
+    font-size: 25px; 
+    color: whitesmoke;
+}
+.primero>.olvi>.olvicontra{
+    display: none;
+    position: absolute;
+    opacity: 0;
+}
+.primero>.olvi:hover>.olvicontra{
+      display: block;
+      top: auto;
+      height: auto;
+      width: 790px;
+      position: relative;
+      opacity: 1;
+}
+#nave>.opcion>.opcion2{
+    display: none;
+    position: absolute;
+    font-size: 27px;
+    list-style: none;
+    left: 500px;
+}
+#nave>.opcion:hover>.opcion2{
+    display: block;
+    position: absolute;
+    color: rgb(211, 211, 211);
+    width: 500px;
+}
+#nave>.opcion>.opcion2>li:hover{
+    color: red;
+}
+#nave>.opcion>.opcion2>li>table{
+    display: none;
+    position: absolute;
+    left: 40px;
+    background: whitesmoke;
+    height: 350px;
+    width: 380px;
+    border-collapse: collapse;
+    border-radius: 70px;
+    box-shadow: -12px 12px 5px rgb(179, 179, 179);
+}
+#nave>.opcion>.opcion2>li>table .tr{
+    font-size: 25px;
+    color: black;
+} 
+#nave>.opcion>.opcion2>li>table button[onclick="none"]{
+    position: absolute;
+    left: 50px;
+    top: 20px;
+    font-size: 22px;
+    background: black;
+    color: white;
+    border-radius: 30px;
+    border: none;
+}
+#nave>.opcion>.opcion2>li>table span{
+    position: absolute;
+    top: 73px;
+    left: 50px;
+    font-size: 30px;
+    font-family: arial;
+}
+#nave>.opcion>.opcion2>li>table a{
+    text-decoration: none;
+    font-size: 13px;
+    position: relative;
+    left: 40px;
+    color: #c60000;
+    font-family: arial;
+}
+#nave>.opcion>.opcion2>li>table div{
+    position: absolute;
+    top: 130px;
+}
+#nave>.opcion>.opcion2>li>table div input[class="textin"]{
+    font: 30px;
+    border: none;
+    border-bottom: 2px solid #c60000;
+    width: 175px;
+    background: whitesmoke;
+    height: 30px;
+}
+#nave>.opcion>.opcion2>li>table div button{
+    background: transparent;
+    border: none;
+}
+/* tamaño del ojo */
+#mostrarin{
+    height: 25px;
+    width: 25px;
+}
+#vcveri{
+    height: 25px;
+    width: 25px;
+}
+/* botones de la tabla */
+#nave>.opcion>.opcion2>li>table div input[type="reset"]{
+    position: absolute;
+    bottom: -30px;
+    left: 50px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+}
+#nave>.opcion>.opcion2>li>table div input[type="submit"]{
+    position: absolute;
+    bottom: -30px;
+    left: 240px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+}
+#nave>.opcion>.opcion2>li>table div input[name="clave"]{
+    position: absolute;
+    bottom: 45px;
+    left: 50px;
+}
+#nave>.opcion>.opcion2>li>table div button[name="ojoini"]{
+    position: absolute;
+    left: 235px;
+    bottom: 45px;
+}
+/* estilo de la tabla de registrar */
+#nave>.opcion>.opcion2>li>table div[class="registrar"]{
+    position: absolute;
+    top: 130px;
+    left: -57px;
+    width: 400px;
+    height: 200px;
+    overflow: scroll;
+    overflow-x:unset;
+}
+/* estilo de botones de reiniciar y registrar */
+#nave>.opcion>.opcion2>li>table div[class="registrar"] input[type="reset"]{
+    position: absolute;
+    bottom: -90%;
+    left: 100px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+}
+#nave>.opcion>.opcion2>li>table div[class="registrar"] input[type="submit"]{
+    position: absolute;
+    bottom: -90%;
+    left: 260px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+}
+/* estilo del input de contraseña */
+#nave>.opcion>.opcion2>li>table div[class="registrar"] input[id="textin"]{
+    position: absolute;
+    bottom: -110px;
+    left: 105px;
+}
+/* estilo del ojo de la contraseña */
+#nave>.opcion>.opcion2>li>table div[class="registrar"] button[class="mostrar"]{
+    position: absolute;
+    left: 291px;
+    bottom: -105px;
+}
+/* estilo del scroll de la tabla registrar */
+#nave>.opcion>.opcion2>li>table div[class="registrar"]::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+    background: transparent;
+}
+#nave>.opcion>.opcion2>li>table div[class="registrar"]::-webkit-scrollbar-thumb{
+    border-radius: 50px;
+    background: #c60000;
+}
+#nave>.opcion>.opcion2>li>table div[class="registrar"]::-webkit-scrollbar-thumb:hover{
+    background: black;
+}
+#nave>.opcion>.opcion2>li>table div[class="registrar"]::-webkit-scrollbar-thumb:active{
+    background: #358ea0;
+}
+
+#nave>.opcion>.opcion2>li:hover>table{
+    display: block;
+}
+#imagencontac{
+    width: 900px;
+    height: 300px;
+}
+.carrito input[type="password"]{
+  display: none;
+}
+.carrito img{
+    background: transparent;
+    border: none;
+    height: 60px;
+    width: 120px;
+}
+.carrito button{
+    background: transparent;
+    border: none;
+    position: absolute;
+    left: 700px;
+}
